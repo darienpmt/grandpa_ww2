@@ -48,6 +48,9 @@ ship, sea, land, typhoon, calm, tonight, kure, morning, bay, island
 Topic  6
 birthday, wife, beloved, send, happy, beloved wife, kiss, remember, feeling, able
 ```
+## Topic Prevalence over time
+![](topic_prev_short.gif)
+
 # Conclusion
 This project was so much fun and I feel very lucky that I had the opportunity to complete it. The best part was reading
 the letters again, gaining a fresh perspective on them and getting to know my grandfather better. A special thanks to my
