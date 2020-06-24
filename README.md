@@ -17,6 +17,7 @@ I put the letters in a Mongo database. The code can be found in `get_data.ipynb`
 # EDA & Sentiment Analysis
 A basic EDA was done to remove uninteresting words and to create some nice word clouds. Code can be found in `EDA.ipynb`.
 I used vaderSentiment to identify the most positive/negative letters that my grandfather wrote. Code is found in 
+`sentiment_analysis_sentence_tokens.ipynb`.
 
 ## Example word cloud
 ![](img/wc_quarterly.png)
