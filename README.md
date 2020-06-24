@@ -14,8 +14,9 @@ read some of them.
 I had to do some basic cleaning to extract the dates the letters were written as well as the text itself. Once cleaned, 
 I put the letters in a Mongo database. The code can be found in `get_data.ipynb`.
 
-# EDA
+# EDA & Sentiment Analysis
 A basic EDA was done to remove uninteresting words and to create some nice word clouds. Code can be found in `EDA.ipynb`.
+I used vaderSentiment to identify the most positive/negative letters that my grandfather wrote. Code is found in 
 
 ## Example word cloud
 ![](img/wc_quarterly.png)
