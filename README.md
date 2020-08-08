@@ -14,8 +14,10 @@ read some of them.
 I had to do some basic cleaning to extract the dates the letters were written as well as the text itself. Once cleaned, 
 I put the letters in a Mongo database. The code can be found in `get_data.ipynb`.
 
-# EDA
+# EDA & Sentiment Analysis
 A basic EDA was done to remove uninteresting words and to create some nice word clouds. Code can be found in `EDA.ipynb`.
+I used vaderSentiment to identify the most positive/negative letters that my grandfather wrote. Code is found in 
+`sentiment_analysis_sentence_tokens.ipynb`.
 
 ## Example word cloud
 ![](img/wc_quarterly.png)
@@ -48,6 +50,9 @@ ship, sea, land, typhoon, calm, tonight, kure, morning, bay, island
 Topic  6
 birthday, wife, beloved, send, happy, beloved wife, kiss, remember, feeling, able
 ```
+## Topic Prevalence over time
+![](topic_prev_short.gif)
+
 # Conclusion
 This project was so much fun and I feel very lucky that I had the opportunity to complete it. The best part was reading
 the letters again, gaining a fresh perspective on them and getting to know my grandfather better. A special thanks to my
