@@ -1,3 +1,5 @@
+![](img/wc_quarterly.png)
+
 # Analyzing my Grandfather's WWII letters
 Ten years ago, my aunt typed all 310 of his letters to help preserve them. I had the great priviledge of using NLP 
 to analyze the letters he wrote to my grandmother during his time in the Pacific. 
@@ -18,9 +20,6 @@ I put the letters in a Mongo database. The code can be found in `get_data.ipynb`
 A basic EDA was done to remove uninteresting words and to create some nice word clouds. Code can be found in `EDA.ipynb`.
 I used vaderSentiment to identify the most positive/negative letters that my grandfather wrote. Code is found in 
 `sentiment_analysis_sentence_tokens.ipynb`.
-
-## Example word cloud
-![](img/wc_quarterly.png)
 
 # Text Preprocessing
 Standard NLP preprocessing. Lowercase letters, remove punctuation, lemmatization, tag POS etc. All my count vectorizers and Tf-IDFs 
